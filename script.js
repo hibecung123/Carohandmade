@@ -44,6 +44,7 @@ for(let i=0;i<boxes.length;i++)
         boxes[i].classList.add('blue')
         current=2
         playerdisplay.innerHTML=current
+        setTimeout(checkwin,50)
     }
     else
     {
@@ -51,9 +52,9 @@ for(let i=0;i<boxes.length;i++)
         boxes[i].classList.add('red')
         current=1
         playerdisplay.innerHTML=current
+        setTimeout(checkwin,50)
     }
     }
-    checkwin()
     }
 }
     
