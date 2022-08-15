@@ -1,0 +1,54 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://img.freepik.com/premium-vector/valentines-day-background-paper-style_52683-54030.jpg?w=2000);
+    background-size: cover;
+}
+h1
+{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.game
+{
+    display:flex;
+    width:450px;
+    height:450px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#box
+{
+    width:150px;
+    height:150px;
+    border: 1px solid red;
+}
+footer
+{
+    color:red;
+    text-align: right;
+    margin-top: 50px;
+    font-size: 40px;
+    margin-right: 40px;
+}
+.player
+{
+    color:red;
+}
+.blue
+{
+    background-color: blue;
+    background-size: cover;
+}
+.red
+{
+    background-color: red;
+    background-size: cover;
+}
